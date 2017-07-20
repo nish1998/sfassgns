@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Slab|Lato|Open+Sans|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body{
+    background-color: #e6ffff;
+  }
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b33c;
+    margin-top: 0;
+    width:100%;
+    display: block;
+    
+}
+.nav{
+	top: 0;
+    left: 0;
+    width:100%;
+    display: flex;
+    position: relative;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    animation-name: navdrop;
+    animation-duration:1s;
+     animation-timing-function: ease-out;
+
+
+}
+
+li {
+    float: left;
+    padding: 15px 40px 15px 40px;
+    transition-duration: 0.5s;
+    font-size: 40px;
+     font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    display: block;
+    color: #00b33c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li:hover{
+
+    	background-color:  #e6ffff;
+    	color: #00b33c;
+    }
+
+    a:link {
+         color: #e6ffff;
+         text-decoration: none;
+    }
+
+    a:visited {
+         color: #e6ffff;
+    }
+
+    a:hover {
+         color: #00b33c;
+    }
+
+    a:active {
+         color: #00b33c;
+    }
+
+    .about{
+  font-family: ubuntu;
+  font-size: 30px;
+  color: #404040;
+  word-spacing: 2px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgba(0, 179, 60,0.4);
+  display: block;
+    background: white;
+    margin-left: 670px;
+    margin-top:250px;
+    width: 70%;
+    height: 40%;
+    transform: translate( -50%, -50% );
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: auto;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    
+
+}
+
+  @keyframes dropdown {
+    0%   {margin-top:250px; opacity: 1; }
+    0.0000000000000000000001%   {margin-top:200px; opacity: 0; }
+    
+    100%  {margin-top:250px; opacity: 1;}
+  }
+
+
+    @keyframes navdrop {
+    0%   {top:0px; opacity: 1;}
+    0.0000000000000000000001%   {top:-50px; opacity: 0;}
+    
+    100%  {top:0px;opacity: 1;}
+  }
+    
+
+
+
+
+    .about:hover{
+      border-width: 25px;
+      border-color: rgba(0, 179, 60,0.7);
+    }
+
+
+      .myself:hover{
+
+        border-width: 25px;
+        border-color: rgba(0, 179, 60,0.7);
+         background: rgba(256,256,256,0.9);
+    }
+
+     #am{
+        background-color:  #e6ffff;
+        color: #00b33c;
+    }
+
+    .footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  background-color: rgba(256,256,256,0.7);
+  text-align: center;
+}
+
+</style>
+
+
+<body>
+<div class="nav">
+<ul>
+  <a href=""><li >HOME</li></a>
+  <a href="#news"><li id="am">ABOUT ME</li></a>
+  <a href="#contact"><li>WORKS</li></a>
+  <a href="#about"><li>CONTACT</li></a>
+</ul>
+</div>
+
+<div class="about">
+
+My name is Nishant. I am an undergraduate student from the department of Biotechnology and Biochemical Engineering enrolled in its Duel Degree course in Indian Institute of Technology Kharagpur. I am from Palampur, Himachal Pradesh. I am also a Cadet in National Cadet Corp. I am interested in Animation and Coding.
+
+</div>
+<div class="footer">
+<h4 style="color:#333; font-family:lato;"><i class="fa fa-copyright"></i> Nishant Thakur Webdesigns</h4>
+</div>
+
+</body>
+</html>

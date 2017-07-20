@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Works</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Slab|Lato|Open+Sans|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body{
+    background-color: #e6ffff;
+  }
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b33c;
+    margin-top: 0;
+    width:100%;
+    display: block;
+    
+}
+.nav{
+	top: 0;
+    left: 0;
+    width:100%;
+    display: flex;
+    position: relative;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    animation-name: navdrop;
+    animation-duration:1s;
+     animation-timing-function: ease-out;
+
+
+}
+
+li {
+    float: left;
+    padding: 15px 40px 15px 40px;
+    transition-duration: 0.5s;
+    font-size: 40px;
+     font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    display: block;
+    color: #00b33c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li:hover{
+
+    	background-color:  #e6ffff;
+    	color: #00b33c;
+    }
+
+    a:link {
+         color: #e6ffff;
+         text-decoration: none;
+    }
+
+    a:visited {
+         color: #e6ffff;
+    }
+
+    a:hover {
+         color: #00b33c;
+    }
+
+    a:active {
+         color: #00b33c;
+    }
+
+    .about{
+  font-family: ubuntu;
+  font-size: 30px;
+  color: #404040;
+  word-spacing: 2px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgba(0, 179, 60,0.4);
+  display: block;
+    background: white;
+    margin-left: 670px;
+    margin-top:250px;
+    width: 70%;
+    height: 40%;
+    transform: translate( -50%, -50% );
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: auto;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    
+
+}
+
+  @keyframes dropdown {
+    0%   {margin-top:250px; opacity: 1; }
+    0.0000000000000000000001%   {margin-top:200px; opacity: 0; }
+    
+    100%  {margin-top:250px; opacity: 1;}
+  }
+
+
+    @keyframes navdrop {
+    0%   {top:0px; opacity: 1;}
+    0.0000000000000000000001%   {top:-50px; opacity: 0;}
+    
+    100%  {top:0px;opacity: 1;}
+  }
+    
+
+
+
+
+    .about:hover{
+      border-width: 25px;
+      border-color: rgba(0, 179, 60,0.7);
+    }
+
+
+      .myself:hover{
+
+        border-width: 25px;
+        border-color: rgba(0, 179, 60,0.7);
+         background: rgba(256,256,256,0.9);
+    }
+
+     #work{
+        background-color:  #e6ffff;
+        color: #00b33c;
+    }
+
+   .footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  background-color: rgba(256,256,256,1);
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+ .image1 {
+ margin:2%;
+ 
+transition-duration: 0.4s;
+
+} 
+
+.container1 {
+  margin: 2%;
+  padding:1%;
+  background-color: white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+ .image2 {
+ margin:2%;
+float:left; 
+height:auto;
+width:500px; 
+transition-duration: 0.4s;
+
+} 
+
+.container2 {
+  margin: 2%;
+  width:80%;
+  height:auto;
+  padding:1%;
+  background-color: white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.image3 {
+ margin:2%;
+float:left; 
+height:auto;
+width:500px; 
+transition-duration: 0.4s;
+
+} 
+
+.container3 {
+  margin: 2%;
+  width:80%;
+  height:auto;
+  padding:1%;
+  background-color: white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.image4 {
+ margin:2%;
+float:left; 
+height:auto;
+width:500px;
+transition-duration: 0.4s;
+
+} 
+
+.container4 {
+  margin: 2%;
+  width:80%;
+  height:auto;
+  padding:1%;
+  background-color: white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+h4 {
+    margin:0px;
+}
+.content{
+  opacity: 1;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+ @keyframes appear {
+    0%   { opacity: 1;}
+    0.0000000000000000000001%   { opacity: 0;}
+    
+    100%  {opacity: 1;}
+  }
+
+  .image1:hover,.image2:hover,.image3:hover,.image4:hover{
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+    
+
+    #container{
+  width: 1350px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 1349px){
+  #container{
+    width:100%;
+  }
+  .container1
+  {
+    width:90%;
+  }
+  .image1{
+    float: left;
+    margin: 40%;
+  }
+  .text{
+     float: right;
+    margin: 60%;
+  }
+  
+
+  }
+
+@media screen and (max-width: 640px){
+  #container{
+    width:100%;
+  }
+  
+  .container1
+  {
+    width:90%;
+  }
+  .image1{
+    float: left;
+    margin: 40%;
+  }
+  .text{
+     float: right;
+    margin: 60%;
+  }
+  
+}
+@media screen and (max-width: 320px){
+  #container{
+    width:320px;
+  }
+
+
+</style>
+
+
+<body>
+<div id="container">
+<div class="nav">
+<ul>
+  <a href="https://nish1998.github.io/home/"><li>HOME</li></a>
+<a href="https://nish1998.github.io/aboutme/"><li >ABOUT</li></a>
+<a href="https://nish1998.github.io/works/"><li id="work">WORKS</li></a>
+<a href="https://nish1998.github.io/contact/index.html" ><li >CONTACT</li></a>
+</ul>
+</div>
+<div class="content">
+<div class='container1'>
+    <div>
+      <a href="https://nish1998.github.io/cn11/" target="_blank"><img src='http://i64.tinypic.com/ulj88.jpg' class='image1' ></a>
+    </div>  
+  <div style='margin-left:60px; font-family: ubuntu; color: #333; font-size: 50px'>
+  <div class="text">
+  <h4 style="margin-top:20px">11th Class Chemistry Notes</h4>
+  <div style="font-size:.6em">Notes written by me uploaded to drive and linked to this webpage (not fully made).</div>
+  
+<br>
+  
+  </div>
+</div>
+
+
+<div class='container2'>
+    <div>
+      <a href="https://nish1998.github.io/inchtocm/" target="_blank"><img src='http://i67.tinypic.com/s64rbp.jpg' class='image2' ></a>
+    </div>  
+  <div style='margin-left:60px; font-family: ubuntu; color: #333; font-size: 50px'>
+  
+  <h4 style="margin-top:20px">Unit Converter</h4>
+  <div style="font-size:.6em">Only converts length from inch to cm. Working on making it fully functioned length converter.</div>
+  
+<br>
+  <br>
+  </div>
+</div>
+
+<div class='container3'>
+    <div>
+      <a href="#"><img src='http://photos.wikimapia.org/p/00/04/45/54/71_big.jpg' class='image3' ></a>
+    </div>  
+  <div style='margin-left:60px; font-family: ubuntu; color: #333; font-size: 50px'>
+  
+  <h4 style="margin-top:20px">As a Joint Secretery</h4>
+  <div style="font-size:.6em">Worked as Joint Secretery in LBS Hall of Residence. Worked in Social and cultural events.</div>
+  
+<br>
+  <br>
+  </div>
+</div>
+
+<div class='container4'>
+    <div>
+      <a href="https://codepen.io/nishantthakur/full/jmYZma/" target="_blank"><img src='http://i64.tinypic.com/idx6qa.jpg' class='image4' ></a>
+    </div>  
+  <div style='margin-left:60px; font-family: ubuntu; color: #333; font-size: 50px'>
+  
+  <h4 style="margin-top:20px">Tribute page</h4>
+  <div style="font-size:.6em">Made a tribute page dedicated to the legend Sachin Tendulkar with his timeline and history.</div>
+  
+<br>
+  <br>
+  </div>
+</div>
+</div></div>
+<div class="footer">
+<h4 style="color:#333; font-family:lato;"><i class="fa fa-copyright"></i> Nishant Thakur Webdesigns</h4>
+</div>
+<br>
+
+
+</body>
+</html>
